@@ -1,0 +1,110 @@
+body {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid green;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+caption {
+  font-style: italic;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%; /* 80% of the available width */
+  margin: 20px auto; /* Center the table and add vertical spacing */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Adds horizontal dividers */
+}
+
+/* Alternating row colors for the table body */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd rows (optional, good practice) */
+}
+
+/* Hover effect for all table body rows */
+tbody tr:hover {
+  background-color: #ddd; /* A different, distinct background color on hover */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+}
+
+th {
+  background-color: #4caf50; /* Green background for header cells */
+  color: white; /* White text for header cells */
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a:link,
+ul.nav li a:visited {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover {
+  background-color: #111111;
+}
